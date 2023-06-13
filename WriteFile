@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+
+
+def write_name_file():
+  name = input("please enter your name: ")
+  filename = "my_name.txt"
+  f = open(filename, "w")
+  write_data = f.write(name)
+  printe(f"{filename} has been wrriten to current directory)
+write_name_to_file()
